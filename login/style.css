@@ -1,0 +1,79 @@
+* {
+  margin: 50;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.6;
+  background-color: #f3f3f3;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500rem;
+  background-color: #f3f3f3;
+  padding: 5rem 6rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+.formHeader {
+  font-size: 2rem;
+  margin-bottom: 4.5rem;
+  line-height: 1.5;
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  right: 120px;
+  color: #47d1cf;
+}
+.Newsletter {
+  background-color: rgb(241, 242, 242);
+  height: 50px;
+}
+.form {
+  margin: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2.5rem;
+}
+.form label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  background-color: #47d1cf;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px 44px;
+  float: left;
+}
+
+#close {
+  font-family: inherit;
+  color: inherit;
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
